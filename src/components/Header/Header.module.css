@@ -1,0 +1,64 @@
+.navLink {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.mainLogo {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.mainLogoImg {
+  margin-right: 8px;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.navListItem {
+  line-height: 1.25;
+}
+
+.loginRegisterContainer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.loginIcon {
+  margin-right: 8px;
+}
+
+.registration {
+  display: flex;
+  padding: 14px 39px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 12px;
+  background-color: #121417;
+  font-weight: 700;
+  line-height: 20px;
+}
